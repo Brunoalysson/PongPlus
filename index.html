@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pong Game</title>
+    <style>
+        #pong {
+            position: relative;
+            width: 800px;
+            height: 400px;
+            margin: 0 auto;
+            background-color: #000;
+        }
+        
+        .paddle {
+            position: absolute;
+            width: 10px;
+            height: 80px;
+            background-color: #fff;
+        }
+        
+        .ball {
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            background-color: #fff;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="pong">
+        <div id="player" class="paddle"></div>
+        <div id="opponent" class="paddle"></div>
+        <div id="ball" class="ball"></div>
+    </div>
+
+    <script src="client.js"></script>
+</body>
+
+</html>
